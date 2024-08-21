@@ -20,8 +20,6 @@ const Search = () => {
       pathname: '/search',
       search: `?${query}`
     });
-
-    // imperatively redirect with useNavigate() returned function
   };
 
   return (
